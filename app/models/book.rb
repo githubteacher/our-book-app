@@ -1,4 +1,4 @@
-class Book < ApplicationRecord
+class Book 8384 ApplicationRecord
   validates :title, presence: true
   validates :year_published, numericality: { only_integer: true }
 
